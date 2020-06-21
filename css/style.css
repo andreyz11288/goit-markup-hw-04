@@ -37,7 +37,13 @@ a {
   /* text-indent: -9999px; */
 }
 
+/*  */
+/*  */
+/*  */
 /* Header */
+/*  */
+/*  */
+/*  */
 
 .studio,
 .portfolio,
@@ -87,7 +93,6 @@ a {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
-  /* margin-right: 305px; */
 }
 .heder-address {
   margin-left: auto;
@@ -121,7 +126,7 @@ a {
 .nav-tel {
   display: block;
   min-width: 142px;
-  /* padding-left: 20px; */
+
   color: var(--second-color);
   padding-top: 32px;
   padding-bottom: 32px;
@@ -129,7 +134,6 @@ a {
 }
 .nav-email {
   min-width: 161px;
-  /* padding-left: 26px; */
 }
 .nav-email::before {
   display: inline-flex;
@@ -141,15 +145,6 @@ a {
   background-size: contain;
 }
 
-/* .nav-email:hover {
-  display: inline-flex;
-  width: 16px;
-  height: 12px;
-  background-repeat: no-repeat;
-
-  background-image: url(../images/envelope-hover.svg);
-  background-position: left 0px top 32px;
-} */
 .nav-tel::before {
   display: inline-flex;
   content: "";
@@ -182,7 +177,13 @@ a {
 main {
   margin-bottom: 94px;
 }
+/*  */
+/*  */
+/*  */
 /* Hero */
+/*  */
+/*  */
+/*  */
 
 .header-backgroup {
   margin-bottom: 98px;
@@ -238,7 +239,13 @@ main {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 30px;
 }
+/*  */
+/*  */
+/*  */
 /* Features */
+/*  */
+/*  */
+/*  */
 
 .features {
   display: flex;
@@ -271,52 +278,28 @@ main {
   /* outline: 2px solid red; */
   margin-bottom: 94px;
 }
-.antena::before {
+.features > li::before {
   display: block;
   content: "";
   height: 120px;
   background-color: #f5f4fa;
-  background-image: url(../images/antenna1.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
+}
+.antena::before {
+  background-image: url(../images/antenna1.svg);
 }
 .clock::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
   background-image: url(../images/clock1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
 }
 .diagram::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
   background-image: url(../images/diagram1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
 }
 .astro::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
   background-image: url(../images/astronaut1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-bottom: 30px;
 }
-/* .antena,
-.clock,
-.diagram,
-.astro {
-  margin-bottom: 30px;
-} */
+
 .features-link {
   display: inline-block;
   padding: 25px 100px;
@@ -335,7 +318,13 @@ main {
 .features-link:focus {
   background-color: var(--link);
 }
+
+/*  */
+/*  */
 /* What are we doing */
+/*  */
+/*  */
+
 .section-work {
   /* outline: 2px solid red; */
   margin-bottom: 94px;
@@ -362,24 +351,6 @@ main {
 .work li {
   width: 370px;
 }
-/* .work-desktop {
-  display: inline-block;
-  width: 370px;
-  height: 294px;
-  background-image: url(../images/box1.jpg);
-} */
-/* .work-mobile {
-  display: inline-block;
-  width: 370px;
-  height: 294px;
-  background-image: url(../images/box2.jpg);
-} */
-/* .work-design {
-  display: inline-block;
-  width: 370px;
-  height: 294px;
-  background-image: url(../images/box3.jpg);
-} */
 
 .work li:not(:last-child) {
   margin-right: 30px;
@@ -416,7 +387,13 @@ main {
   background-color: var(--link);
   color: var(--black-color);
 }
+/*  */
+/*  */
+/*  */
 /* team */
+/*  */
+/*  */
+/*  */
 .section-team {
   width: 1600px;
   background-color: #f5f4fa;
@@ -478,12 +455,13 @@ main {
   display: inline-block;
   margin-bottom: 30px;
 }
-/* .team li:hover,
-.team li:focus {
-  background-color: var(--link);
-} */
-
+/*  */
+/*  */
+/*  */
 /* Clients */
+/*  */
+/*  */
+/*  */
 
 .clients {
   display: flex;
@@ -508,10 +486,20 @@ main {
 }
 .clients a:hover,
 .clients a:focus {
+  width: 170px;
+  height: 90px;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 4px;
   background-color: var(--link);
 }
-
+/*  */
+/*  */
+/*  */
 /* Footer */
+/*  */
+/*  */
+/*  */
 .section-footer {
   background-color: var(--bgp-footer);
 }
@@ -539,7 +527,6 @@ main {
 }
 #address > ul {
   width: 231px;
-  /* margin-top: 8px; */
 }
 #address > ul > li {
   height: 21px;
@@ -622,7 +609,6 @@ main {
   font-weight: normal;
   font-size: 16px;
   line-height: 50px;
-  /* identical to box height, or 125% */
 
   display: flex;
   align-items: center;
@@ -652,7 +638,6 @@ main {
   color: #ffffff;
 }
 .footer-button::after {
-  /* display: flex; */
   content: "";
   width: 24px;
   height: 24px;
@@ -661,7 +646,13 @@ main {
   background-image: url(../images/icon-send.svg);
   background-size: contain;
 }
+/*  */
+/*  */
+/*  */
 /* Second page */
+/*  */
+/*  */
+/*  */
 .head2 {
   margin-bottom: 93px;
 }
@@ -700,7 +691,6 @@ main {
   background-color: var(--link);
 }
 .main-content li {
-  /* width: 370px; */
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -720,7 +710,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   /* outline: 2px solid red; */
-  /* justify-content: space-between; */
 }
 
 .main-h2 {
@@ -781,7 +770,14 @@ main {
   color: var(--white-color);
 }
 
+/*  */
+/*  */
+/*  */
 /* social networks */
+/*  */
+/*  */
+/*  */
+
 .social {
   width: 238px;
   display: flex;
