@@ -149,14 +149,19 @@ main {
 }
 .overlay {
   /* outline: 2px solid red; */
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
-  background-image: url(../images/header-img.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/header-img.jpg);
 }
-.overlay-backgroup {
+/* .overlay-backgroup {
   height: 600px;
-  background-color: rgba(47, 48, 58, 0.8);
-}
+  background-color: rgba(49, 58, 155, 0.8);
+} */
 .content-button-text {
   padding: 10px 32px;
   color: var(--white-color);
