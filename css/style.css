@@ -695,7 +695,7 @@ main {
   margin-right: 30px;
   margin-bottom: 30px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
   box-sizing: border-box;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
@@ -752,12 +752,15 @@ main {
   text-align: start;
   color: var(--third);
   width: 322px;
-  height: 168px;
+  /* height: 168px; */
   background-color: rgba(33, 150, 243, 0.9);
 }
 .main-content a > p {
   color: var(--second-color);
 }
+/* .main-content > li {
+  width: 370px;
+} */
 
 #address a {
   color: var(--second-color);
@@ -807,12 +810,16 @@ main {
 .social-footer {
   display: flex;
 }
-.social-footer > li {
-  width: 44px;
-}
 .social-footer a {
-  padding: 12px;
-  color: var(--second-color);
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  /* outline: 1px solid red; */
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .social-footer > li:not(:last-child) {
   margin-right: 10px;
@@ -820,8 +827,17 @@ main {
 
 .social-footer a:hover,
 .social-footer a:focus {
-  padding: 12px;
-  color: var(--white-color);
   background-color: var(--link);
-  border-radius: 100px;
+}
+.inst2 {
+  background-image: url(../images/social/instagramfooter.svg);
+}
+.twit1 {
+  background-image: url(../images/social/twitterfooter.svg);
+}
+.face1 {
+  background-image: url(../images/social/facebookfooter.svg);
+}
+.link1 {
+  background-image: url(../images/social/linkedinfooter.svg);
 }
