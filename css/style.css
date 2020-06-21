@@ -272,9 +272,8 @@ main {
   margin-bottom: 94px;
 }
 .antena::before {
-  display: inline-flex;
+  display: block;
   content: "";
-  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   background-image: url(../images/antenna1.svg);
@@ -283,9 +282,8 @@ main {
   margin-bottom: 30px;
 }
 .clock::before {
-  display: inline-flex;
+  display: block;
   content: "";
-  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   background-image: url(../images/clock1.svg);
@@ -294,9 +292,8 @@ main {
   margin-bottom: 30px;
 }
 .diagram::before {
-  display: inline-flex;
+  display: block;
   content: "";
-  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   background-image: url(../images/diagram1.svg);
@@ -305,9 +302,8 @@ main {
   margin-bottom: 30px;
 }
 .astro::before {
-  display: inline-flex;
+  display: block;
   content: "";
-  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   background-image: url(../images/astronaut1.svg);
