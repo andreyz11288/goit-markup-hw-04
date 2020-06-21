@@ -482,10 +482,10 @@ main {
   display: inline-block;
   margin-bottom: 30px;
 }
-.team li:hover,
+/* .team li:hover,
 .team li:focus {
   background-color: var(--link);
-}
+} */
 
 /* Clients */
 
