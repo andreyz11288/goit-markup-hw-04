@@ -145,8 +145,8 @@ a {
 
 .svg-nav-tel {
   display: block;
-  width: 10px;
-  height: 15px;
+  width: 11px;
+  height: 17px;
   margin-right: 10px;
 }
 
@@ -275,7 +275,7 @@ main {
 }
 
 .icon-antenna1,
-.icon-clock,
+.icon-clock1,
 .icon-diagram1,
 .icon-astronaut1 {
   margin-left: 100px;
@@ -463,10 +463,10 @@ main {
   padding: 19px 64px;
 }
 .svg-client3 {
-  padding: 24px 64px;
+  padding: 23px 64px;
 }
 .svg-client4 {
-  padding: 24px 45px;
+  padding: 23px 45px;
 }
 .svg-client5 {
   padding: 22px 56px;
@@ -626,6 +626,8 @@ main {
 }
 
 .footer-button {
+  width: 200px;
+  height: 50px;
   margin-top: 20px;
   margin-left: 12px;
   padding: 10px 29px;
@@ -645,7 +647,10 @@ main {
 
   color: #ffffff;
 }
-.footer-button::after {
+.footer-button > svg {
+  margin-left: 10px;
+}
+/* .footer-button::after {
   content: "";
   width: 24px;
   height: 24px;
@@ -653,7 +658,7 @@ main {
   background-position: right;
   background-image: url(../images/icon-send.svg);
   background-size: contain;
-}
+} */
 /*  */
 /*  */
 /*  */
@@ -805,25 +810,36 @@ main {
 .social a {
   width: 44px;
   height: 44px;
-  text-align: center;
+  fill: #afb1b8;
 
-  color: var(--second-color);
+  /* color: var(--second-color); */
 }
 .social a:hover,
 .social a:focus {
   color: var(--white-color);
   background-color: var(--link);
-  border-radius: 100px;
+  fill: var(--white-color);
+  border-radius: 50%;
 }
+/*  */
+/*  */
+/*  */
+/* social-footer */
+/*  */
+/*  */
+/*  */
 .social-footer {
   display: flex;
+}
+.social-footer svg {
+  margin: 12px;
 }
 .social-footer a {
   display: inline-flex;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50px;
+  border-radius: 50%;
   /* outline: 1px solid red; */
   background-size: 20px;
   background-repeat: no-repeat;
@@ -837,7 +853,7 @@ main {
 .social-footer a:focus {
   background-color: var(--link);
 }
-.inst2 {
+/* .inst2 {
   background-image: url(../images/social/instagramfooter.svg);
 }
 .twit1 {
@@ -848,4 +864,4 @@ main {
 }
 .link1 {
   background-image: url(../images/social/linkedinfooter.svg);
-}
+} */
