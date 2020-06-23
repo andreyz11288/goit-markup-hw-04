@@ -82,6 +82,7 @@ a {
 }
 .n-menu {
   display: flex;
+  margin-right: 305px;
 }
 .nav-menu {
   display: flex;
@@ -94,9 +95,9 @@ a {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.heder-address {
+/* .heder-address {
   margin-left: auto;
-}
+} */
 .section-nav-contact {
   display: flex;
   font-family: Roboto;
@@ -124,7 +125,7 @@ a {
 
 .nav-email,
 .nav-tel {
-  display: block;
+  display: flex;
   min-width: 142px;
 
   color: var(--second-color);
@@ -135,45 +136,31 @@ a {
 .nav-email {
   min-width: 161px;
 }
-.nav-email::before {
-  display: inline-flex;
-  content: "";
+.svg-nav-email {
+  display: flex;
   width: 16px;
-  height: 12px;
+  height: 16px;
   margin-right: 10px;
-  background-image: url(../images/envelope.svg);
-  background-size: contain;
 }
 
-.nav-tel::before {
-  display: inline-flex;
-  content: "";
+.svg-nav-tel {
+  display: block;
   width: 10px;
   height: 15px;
   margin-right: 10px;
-  background-image: url(../images/smartphone.svg);
-  background-size: contain;
 }
+
 .nav-tel:hover,
 .nav-tel:focus {
+  fill: var(--link);
   color: var(--link);
 }
 .nav-email:hover,
 .nav-email:focus {
+  fill: var(--link);
   color: var(--link);
-  background-repeat: no-repeat;
-  background-image: url(../images/envelope-hover.svg);
-  background-position: left 0px top 32px;
 }
-.nav-tel::before {
-  display: inline-flex;
-  content: "";
-  width: 10px;
-  height: 15px;
-  margin-right: 10px;
-  background-image: url(../images/smartphone.svg);
-  background-size: contain;
-}
+
 main {
   margin-bottom: 94px;
 }
@@ -278,26 +265,21 @@ main {
   /* outline: 2px solid red; */
   margin-bottom: 94px;
 }
-.features > li::before {
+
+.features div {
   display: block;
-  content: "";
+  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: 30px;
 }
-.antena::before {
-  background-image: url(../images/antenna1.svg);
-}
-.clock::before {
-  background-image: url(../images/clock1.svg);
-}
-.diagram::before {
-  background-image: url(../images/diagram1.svg);
-}
-.astro::before {
-  background-image: url(../images/astronaut1.svg);
+
+.icon-antenna1,
+.icon-clock,
+.icon-diagram1,
+.icon-astronaut1 {
+  margin-left: 100px;
+  margin-top: 25px;
 }
 
 .features-link {
@@ -470,10 +452,6 @@ main {
   display: block;
   width: 170px;
   height: 90px;
-
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 .clients > li:not(:last-child) {
   margin-right: 30px;
@@ -497,10 +475,12 @@ main {
   padding: 22px 40px;
 }
 .clients svg {
-  display: inline-flex;
   fill: #afb1b8;
   width: 170px;
   height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 .clients svg:hover {
   border: 1px solid var(--link);
@@ -520,15 +500,7 @@ main {
   color: #212121;
   margin-bottom: 50px;
 }
-/* .clients a:hover,
-.clients a:focus {
-  width: 170px;
-  height: 90px;
-  box-sizing: border-box;
-  box-sizing: border-box;
-  border-radius: 4px;
-  background-color: var(--link);
-} */
+
 /*  */
 /*  */
 /*  */
