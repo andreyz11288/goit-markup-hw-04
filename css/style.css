@@ -468,9 +468,45 @@ main {
 }
 .clients a {
   display: block;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 .clients > li:not(:last-child) {
   margin-right: 30px;
+}
+.svg-client1 {
+  padding: 20px 63px;
+}
+.svg-client2 {
+  padding: 19px 64px;
+}
+.svg-client3 {
+  padding: 24px 64px;
+}
+.svg-client4 {
+  padding: 24px 45px;
+}
+.svg-client5 {
+  padding: 22px 56px;
+}
+.svg-client6 {
+  padding: 22px 40px;
+}
+.clients svg {
+  display: inline-flex;
+  fill: #afb1b8;
+  width: 170px;
+  height: 90px;
+}
+.clients svg:hover {
+  border: 1px solid var(--link);
+  box-sizing: border-box;
+  border-radius: 4px;
+  fill: var(--link);
 }
 
 .section-clients h2 {
@@ -484,7 +520,7 @@ main {
   color: #212121;
   margin-bottom: 50px;
 }
-.clients a:hover,
+/* .clients a:hover,
 .clients a:focus {
   width: 170px;
   height: 90px;
@@ -492,7 +528,7 @@ main {
   box-sizing: border-box;
   border-radius: 4px;
   background-color: var(--link);
-}
+} */
 /*  */
 /*  */
 /*  */
